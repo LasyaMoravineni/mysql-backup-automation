@@ -1,0 +1,141 @@
+2025-09-04 19:54:49,843 - INFO - Backup started
+2025-09-04 19:55:08,786 - INFO - Backup started
+2025-09-04 19:55:08,803 - INFO - Failed to back up company.employees: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.employees_backup20250904195508 AS SELECT * FROM company.company.employees' at line 1
+2025-09-04 19:55:08,803 - INFO - Failed to back up company.departments: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.departments_backup20250904195508 AS SELECT * FROM company.company.departments' at line 1
+2025-09-04 19:55:08,803 - INFO - Backup script completed.
+2025-09-04 19:58:54,034 - INFO - Backup started
+2025-09-04 19:58:54,063 - INFO - Failed to back up company.employees: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.employees_backup20250904195854 AS SELECT * FROM company.company.employees' at line 1
+2025-09-04 19:58:54,063 - INFO - Failed to back up company.departments: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.departments_backup20250904195854 AS SELECT * FROM company.company.departments' at line 1
+2025-09-04 19:58:54,064 - INFO - Backup script completed.
+2025-09-04 20:01:21,559 - INFO - Backup started
+2025-09-04 20:01:21,590 - INFO - Backup created for company.employees: employees_backup20250904200121
+2025-09-04 20:01:21,597 - INFO - Backup created for company.departments: departments_backup20250904200121
+2025-09-04 20:01:21,597 - INFO - Backup script completed.
+2025-09-04 20:17:08,697 - INFO - Backup started
+2025-09-04 20:17:08,729 - INFO - Backup created for company.employees: employees_backup20250904201708
+2025-09-04 20:17:08,735 - INFO - Backup created for company.departments: departments_backup20250904201708
+2025-09-04 20:17:08,736 - INFO - Backup script completed.
+2025-09-04 20:19:50,009 - INFO - Backup started at 2025-09-04 20:19:50
+2025-09-04 20:19:50,045 - INFO - Backup created for company.employees: employees_backup20250904201950
+2025-09-04 20:19:50,052 - INFO - Backup created for company.departments: departments_backup20250904201950
+2025-09-04 20:19:50,053 - INFO - Backup process completed successfully at 2025-09-04 20:19:50
+2025-09-04 20:19:50,053 - INFO - Total time taken: 0.04 seconds
+2025-09-05 11:11:10,398 - INFO - Backup started at 2025-09-05 11:11:10.398756
+2025-09-05 11:11:10,448 - INFO - Backup created for company.departments_backup20250905111110
+2025-09-05 11:11:10,451 - INFO - Backup created for company.departments_backup20250904144756_backup20250905111110
+2025-09-05 11:11:10,453 - INFO - Backup created for company.departments_backup20250904200121_backup20250905111110
+2025-09-05 11:11:10,456 - INFO - Backup created for company.departments_backup20250904201708_backup20250905111110
+2025-09-05 11:11:10,459 - INFO - Backup created for company.departments_backup20250904201950_backup20250905111110
+2025-09-05 11:11:10,461 - INFO - Backup created for company.departments_backup20250904202413_backup20250905111110
+2025-09-05 11:11:10,467 - INFO - Backup created for company.employees_backup20250905111110
+2025-09-05 11:11:10,476 - INFO - Backup created for company.employees_backup20250904144756_backup20250905111110
+2025-09-05 11:11:10,483 - INFO - Backup created for company.employees_backup20250904200121_backup20250905111110
+2025-09-05 11:11:10,486 - INFO - Backup created for company.employees_backup20250904201708_backup20250905111110
+2025-09-05 11:11:10,489 - INFO - Backup created for company.employees_backup20250904201950_backup20250905111110
+2025-09-05 11:11:10,491 - INFO - Backup created for company.employees_backup20250904202413_backup20250905111110
+2025-09-05 11:11:10,492 - INFO - Backup process completed successfully at 2025-09-05 11:11:10
+2025-09-05 11:11:10,492 - INFO - Total time taken: 0.09 seconds
+2025-09-05 11:12:18,523 - INFO - Backup started at 2025-09-05 11:12:18.523736
+2025-09-05 11:12:18,559 - INFO - Backup created for company.departments_backup20250905111218
+2025-09-05 11:12:18,565 - INFO - Backup created for company.departments_backup20250904144756_backup20250905111218
+2025-09-05 11:12:18,566 - ERROR - Failed to back up company.departments_backup20250904144756_backup20250905111110: 1059 (42000): Identifier name 'departments_backup20250904144756_backup20250905111110_backup20250905111218' is too long
+2025-09-05 11:12:18,571 - INFO - Backup created for company.departments_backup20250904200121_backup20250905111218
+2025-09-05 11:12:18,572 - ERROR - Failed to back up company.departments_backup20250904200121_backup20250905111110: 1059 (42000): Identifier name 'departments_backup20250904200121_backup20250905111110_backup20250905111218' is too long
+2025-09-05 11:12:18,574 - INFO - Backup created for company.departments_backup20250904201708_backup20250905111218
+2025-09-05 11:12:18,575 - ERROR - Failed to back up company.departments_backup20250904201708_backup20250905111110: 1059 (42000): Identifier name 'departments_backup20250904201708_backup20250905111110_backup20250905111218' is too long
+2025-09-05 11:12:18,577 - INFO - Backup created for company.departments_backup20250904201950_backup20250905111218
+2025-09-05 11:12:18,577 - ERROR - Failed to back up company.departments_backup20250904201950_backup20250905111110: 1059 (42000): Identifier name 'departments_backup20250904201950_backup20250905111110_backup20250905111218' is too long
+2025-09-05 11:12:18,580 - INFO - Backup created for company.departments_backup20250904202413_backup20250905111218
+2025-09-05 11:12:18,581 - ERROR - Failed to back up company.departments_backup20250904202413_backup20250905111110: 1059 (42000): Identifier name 'departments_backup20250904202413_backup20250905111110_backup20250905111218' is too long
+2025-09-05 11:12:18,586 - INFO - Backup created for company.departments_backup20250905111110_backup20250905111218
+2025-09-05 11:12:18,589 - INFO - Backup created for company.employees_backup20250905111218
+2025-09-05 11:12:18,592 - INFO - Backup created for company.employees_backup20250904144756_backup20250905111218
+2025-09-05 11:12:18,592 - ERROR - Failed to back up company.employees_backup20250904144756_backup20250905111110: 1059 (42000): Identifier name 'employees_backup20250904144756_backup20250905111110_backup20250905111218' is too long
+2025-09-05 11:12:18,594 - INFO - Backup created for company.employees_backup20250904200121_backup20250905111218
+2025-09-05 11:12:18,594 - ERROR - Failed to back up company.employees_backup20250904200121_backup20250905111110: 1059 (42000): Identifier name 'employees_backup20250904200121_backup20250905111110_backup20250905111218' is too long
+2025-09-05 11:12:18,597 - INFO - Backup created for company.employees_backup20250904201708_backup20250905111218
+2025-09-05 11:12:18,597 - ERROR - Failed to back up company.employees_backup20250904201708_backup20250905111110: 1059 (42000): Identifier name 'employees_backup20250904201708_backup20250905111110_backup20250905111218' is too long
+2025-09-05 11:12:18,599 - INFO - Backup created for company.employees_backup20250904201950_backup20250905111218
+2025-09-05 11:12:18,600 - ERROR - Failed to back up company.employees_backup20250904201950_backup20250905111110: 1059 (42000): Identifier name 'employees_backup20250904201950_backup20250905111110_backup20250905111218' is too long
+2025-09-05 11:12:18,601 - INFO - Backup created for company.employees_backup20250904202413_backup20250905111218
+2025-09-05 11:12:18,602 - ERROR - Failed to back up company.employees_backup20250904202413_backup20250905111110: 1059 (42000): Identifier name 'employees_backup20250904202413_backup20250905111110_backup20250905111218' is too long
+2025-09-05 11:12:18,604 - INFO - Backup created for company.employees_backup20250905111110_backup20250905111218
+2025-09-05 11:12:18,604 - INFO - Backup process completed successfully at 2025-09-05 11:12:18
+2025-09-05 11:12:18,605 - INFO - Total time taken: 0.08 seconds
+2025-09-05 11:13:23,411 - INFO - Backup started at 2025-09-05 11:13:23.410985
+2025-09-05 11:13:23,435 - INFO - Backup created for company.employees_backup20250905111323
+2025-09-05 11:13:23,440 - INFO - Backup created for company.departments_backup20250905111323
+2025-09-05 11:13:23,441 - INFO - Backup process completed successfully at 2025-09-05 11:13:23
+2025-09-05 11:13:23,441 - INFO - Total time taken: 0.03 seconds
+2025-09-05 11:15:29,811 - INFO - Backup started at 2025-09-05 11:15:29.811464
+2025-09-05 11:15:29,849 - INFO - Backup created for company.departments_backup20250905111529
+2025-09-05 11:15:29,855 - INFO - Backup created for company.departments_backup20250904144756_backup20250905111529
+2025-09-05 11:15:29,855 - ERROR - Failed to back up company.departments_backup20250904144756_backup20250905111110: 1059 (42000): Identifier name 'departments_backup20250904144756_backup20250905111110_backup20250905111529' is too long
+2025-09-05 11:15:29,856 - ERROR - Failed to back up company.departments_backup20250904144756_backup20250905111218: 1059 (42000): Identifier name 'departments_backup20250904144756_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,859 - INFO - Backup created for company.departments_backup20250904200121_backup20250905111529
+2025-09-05 11:15:29,859 - ERROR - Failed to back up company.departments_backup20250904200121_backup20250905111110: 1059 (42000): Identifier name 'departments_backup20250904200121_backup20250905111110_backup20250905111529' is too long
+2025-09-05 11:15:29,860 - ERROR - Failed to back up company.departments_backup20250904200121_backup20250905111218: 1059 (42000): Identifier name 'departments_backup20250904200121_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,861 - INFO - Backup created for company.departments_backup20250904201708_backup20250905111529
+2025-09-05 11:15:29,862 - ERROR - Failed to back up company.departments_backup20250904201708_backup20250905111110: 1059 (42000): Identifier name 'departments_backup20250904201708_backup20250905111110_backup20250905111529' is too long
+2025-09-05 11:15:29,862 - ERROR - Failed to back up company.departments_backup20250904201708_backup20250905111218: 1059 (42000): Identifier name 'departments_backup20250904201708_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,864 - INFO - Backup created for company.departments_backup20250904201950_backup20250905111529
+2025-09-05 11:15:29,864 - ERROR - Failed to back up company.departments_backup20250904201950_backup20250905111110: 1059 (42000): Identifier name 'departments_backup20250904201950_backup20250905111110_backup20250905111529' is too long
+2025-09-05 11:15:29,865 - ERROR - Failed to back up company.departments_backup20250904201950_backup20250905111218: 1059 (42000): Identifier name 'departments_backup20250904201950_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,867 - INFO - Backup created for company.departments_backup20250904202413_backup20250905111529
+2025-09-05 11:15:29,867 - ERROR - Failed to back up company.departments_backup20250904202413_backup20250905111110: 1059 (42000): Identifier name 'departments_backup20250904202413_backup20250905111110_backup20250905111529' is too long
+2025-09-05 11:15:29,867 - ERROR - Failed to back up company.departments_backup20250904202413_backup20250905111218: 1059 (42000): Identifier name 'departments_backup20250904202413_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,869 - INFO - Backup created for company.departments_backup20250905111110_backup20250905111529
+2025-09-05 11:15:29,869 - ERROR - Failed to back up company.departments_backup20250905111110_backup20250905111218: 1059 (42000): Identifier name 'departments_backup20250905111110_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,871 - INFO - Backup created for company.departments_backup20250905111218_backup20250905111529
+2025-09-05 11:15:29,874 - INFO - Backup created for company.departments_backup20250905111323_backup20250905111529
+2025-09-05 11:15:29,876 - INFO - Backup created for company.employees_backup20250905111529
+2025-09-05 11:15:29,878 - INFO - Backup created for company.employees_backup20250904144756_backup20250905111529
+2025-09-05 11:15:29,878 - ERROR - Failed to back up company.employees_backup20250904144756_backup20250905111110: 1059 (42000): Identifier name 'employees_backup20250904144756_backup20250905111110_backup20250905111529' is too long
+2025-09-05 11:15:29,879 - ERROR - Failed to back up company.employees_backup20250904144756_backup20250905111218: 1059 (42000): Identifier name 'employees_backup20250904144756_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,881 - INFO - Backup created for company.employees_backup20250904200121_backup20250905111529
+2025-09-05 11:15:29,881 - ERROR - Failed to back up company.employees_backup20250904200121_backup20250905111110: 1059 (42000): Identifier name 'employees_backup20250904200121_backup20250905111110_backup20250905111529' is too long
+2025-09-05 11:15:29,881 - ERROR - Failed to back up company.employees_backup20250904200121_backup20250905111218: 1059 (42000): Identifier name 'employees_backup20250904200121_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,885 - INFO - Backup created for company.employees_backup20250904201708_backup20250905111529
+2025-09-05 11:15:29,885 - ERROR - Failed to back up company.employees_backup20250904201708_backup20250905111110: 1059 (42000): Identifier name 'employees_backup20250904201708_backup20250905111110_backup20250905111529' is too long
+2025-09-05 11:15:29,885 - ERROR - Failed to back up company.employees_backup20250904201708_backup20250905111218: 1059 (42000): Identifier name 'employees_backup20250904201708_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,888 - INFO - Backup created for company.employees_backup20250904201950_backup20250905111529
+2025-09-05 11:15:29,888 - ERROR - Failed to back up company.employees_backup20250904201950_backup20250905111110: 1059 (42000): Identifier name 'employees_backup20250904201950_backup20250905111110_backup20250905111529' is too long
+2025-09-05 11:15:29,888 - ERROR - Failed to back up company.employees_backup20250904201950_backup20250905111218: 1059 (42000): Identifier name 'employees_backup20250904201950_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,891 - INFO - Backup created for company.employees_backup20250904202413_backup20250905111529
+2025-09-05 11:15:29,891 - ERROR - Failed to back up company.employees_backup20250904202413_backup20250905111110: 1059 (42000): Identifier name 'employees_backup20250904202413_backup20250905111110_backup20250905111529' is too long
+2025-09-05 11:15:29,891 - ERROR - Failed to back up company.employees_backup20250904202413_backup20250905111218: 1059 (42000): Identifier name 'employees_backup20250904202413_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,893 - INFO - Backup created for company.employees_backup20250905111110_backup20250905111529
+2025-09-05 11:15:29,893 - ERROR - Failed to back up company.employees_backup20250905111110_backup20250905111218: 1059 (42000): Identifier name 'employees_backup20250905111110_backup20250905111218_backup20250905111529' is too long
+2025-09-05 11:15:29,896 - INFO - Backup created for company.employees_backup20250905111218_backup20250905111529
+2025-09-05 11:15:29,898 - INFO - Backup created for company.employees_backup20250905111323_backup20250905111529
+2025-09-05 11:15:29,898 - INFO - Backup process completed successfully at 2025-09-05 11:15:29
+2025-09-05 11:15:29,899 - INFO - Total time taken: 0.09 seconds
+2025-09-05 11:26:16,437 - INFO - Backup started at 2025-09-05 11:26:16.437724
+2025-09-05 11:26:16,479 - INFO - Backup created for company.departments_backup20250905112616
+2025-09-05 11:26:16,487 - INFO - Backup created for company.employees_backup20250905112616
+2025-09-05 11:26:16,488 - INFO - Backup process completed successfully at 2025-09-05 11:26:16
+2025-09-05 11:26:16,488 - INFO - Total time taken: 0.05 seconds
+2025-09-05 11:55:56,770 - INFO - Backup started at 2025-09-05 11:55:56.769987
+2025-09-05 11:56:04,361 - INFO - Backup created for company.departments_backup20250905115604
+2025-09-05 11:56:04,368 - INFO - Backup created for company.employees_backup20250905115604
+2025-09-05 11:56:04,368 - INFO - Backup process completed successfully at 2025-09-05 11:56:04
+2025-09-05 11:56:04,368 - INFO - Total time taken: 7.60 seconds
+2025-09-05 12:02:03,683 - INFO - Backup started at 2025-09-05 12:02:03.683053
+2025-09-05 12:02:03,693 - INFO - Backup created for company.departments_backup20250905120203
+2025-09-05 12:02:03,693 - INFO - Backup process completed successfully at 2025-09-05 12:02:03
+2025-09-05 12:02:03,693 - INFO - Total time taken: 0.01 seconds
+2025-09-05 12:07:15,808 - INFO - Backup started at 2025-09-05 12:07:15.808074
+2025-09-05 12:07:15,826 - INFO - Backup created for company.departments_backup20250905120715
+2025-09-05 12:07:15,835 - INFO - Backup created for company.employees_backup20250905120715
+2025-09-05 12:07:15,836 - INFO - Backup process completed successfully at 2025-09-05 12:07:15
+2025-09-05 12:07:15,836 - INFO - Total time taken: 0.03 seconds
+2025-09-05 17:23:16,018 - INFO - Backup started at 2025-09-05 17:23:16.018665
+2025-09-05 17:23:16,083 - INFO - Backup created for company.departments_backup20250905172316
+2025-09-05 17:23:16,092 - INFO - Backup created for company.employees_backup20250905172316
+2025-09-05 17:23:16,092 - INFO - Backup process completed successfully at 2025-09-05 17:23:16
+2025-09-05 17:23:16,092 - INFO - Total time taken: 0.07 seconds
+2025-09-24 14:39:26,843 - INFO - Backup started at 2025-09-24 14:39:26
+2025-09-24 14:39:26,913 - INFO - Backup created for company.departments_backup20250924143926
+2025-09-24 14:39:26,916 - INFO - Backup created for company.employees_backup20250924143926
+2025-09-24 14:39:26,917 - INFO - Backup process completed successfully at 2025-09-24 14:39:26
+2025-09-24 14:39:26,917 - INFO - Total time taken: 0.07 seconds

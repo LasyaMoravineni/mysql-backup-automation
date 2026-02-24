@@ -1,0 +1,8 @@
+{
+    "backup_type": "full",
+    "tables": ["company.employees","company.departments"]
+}
+
+
+
+

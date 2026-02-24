@@ -1,0 +1,9 @@
+
+
+
+
+#error handling on json fromat
+# add start time and end time in message
+#Don't give the direct credentials
+#Load the complete string from json
+#there can be multiple databases, so take it as dbname.tablename

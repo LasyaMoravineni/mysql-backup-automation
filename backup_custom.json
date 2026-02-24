@@ -1,0 +1,4 @@
+{
+    "backup_type": "custom",
+    "tables": ["company.employees"]
+}
